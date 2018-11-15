@@ -1,0 +1,19 @@
+Type: Package
+Package: coreml
+Title: Convert R models to coreml models
+Version: 0.1.0
+Authors@R: c(person("Dirk", "Schumacher", email = "mai@dirk-schumacher.net", 
+                    role = c("aut", "cre")), 
+             person("Apple Inc.", role = c("ctb", "cph"),
+                    comment = "Coreml protocolbuffer (*.proto) files"))
+Description: Export models fitted in R to coreml so you can use them in
+  iOS applications.
+License: MIT + file LICENSE
+Imports: 
+    RProtoBuf,
+    reticulate
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+RoxygenNote: 6.1.0
