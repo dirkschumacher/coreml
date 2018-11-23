@@ -37,7 +37,7 @@ predictions.
 
 ``` r
   library(coreml)
-  model <- glm(I(mpg >= 15) ~ -1 + hp + cyl + drat, data = mtcars, family = binomial())
+  model <- glm(I(mpg >= 20) ~ -1 + hp + cyl + drat, data = mtcars, family = binomial())
 
   coreml_model <- coreml_convert(model)
   
