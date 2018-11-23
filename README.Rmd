@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 The goal of coreml is to convert models trained/fitted in R to [coreml](https://developer.apple.com/documentation/coreml) so that you can use them in Apple iOS applications.
 
-This is work in progress and just a proof of concept. Do not use it for production.
+This is work in progress and just a proof of concept. Do not use it for production, it barely works and I am still learning and testing.
 
 ## Installation
 

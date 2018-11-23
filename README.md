@@ -8,7 +8,7 @@ The goal of coreml is to convert models trained/fitted in R to
 can use them in Apple iOS applications.
 
 This is work in progress and just a proof of concept. Do not use it for
-production.
+production, it barely works and I am still learning and testing.
 
 ## Installation
 
